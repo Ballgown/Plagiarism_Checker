@@ -80,7 +80,6 @@ int main()
 				}
 			}
 		}
-		cout << endl << "Total common words : " << common;
 	}
 	else {};
 
@@ -96,6 +95,7 @@ int main()
 		similarity_percentage = (common * 100.0) / unique;
 	}
 	cout << "Total Unique words : " << unique << endl ;
+        cout << "Total common words : " << common << endl ;
 	cout << "Similarity percentage : " << similarity_percentage << endl;
 	if (similarity_percentage>= 80.00) {
 		cout << "Plagiarism level : High" << endl;
