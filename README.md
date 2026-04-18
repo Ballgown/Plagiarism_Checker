@@ -1,4 +1,4 @@
-# C++ Plagiarism Checker 🔍
+# C++ Plagiarism Checker 
 
 A simple yet effective C++ program to check text similarity by comparing word frequencies. It normalizes input texts, removes special characters, compares word sets, and estimates a similarity percentage to detect possible plagiarism.
 
